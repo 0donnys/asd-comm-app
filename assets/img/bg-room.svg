@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFF9EC"/><stop offset="1" stop-color="#F2D8B2"/>
+</linearGradient>
+<linearGradient id="wallCool" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7F1E4"/><stop offset="1" stop-color="#E9D3B4"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BBDDE6"/><stop offset="1" stop-color="#FBE6BE"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".35"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow">
+  <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="planks" width="100" height="36" patternUnits="userSpaceOnUse">
+  <rect width="100" height="36" fill="#D8A870"/>
+  <path d="M0 0H100 M0 35H100 M50 0V36" stroke="#B9834F" stroke-width="1.4" opacity=".55"/>
+  <path d="M8 6q14 4 26 0" stroke="#C9955E" stroke-width="1.2" opacity=".45" fill="none"/>
+</pattern>
+<pattern id="tiles" width="64" height="64" patternUnits="userSpaceOnUse">
+  <rect width="64" height="64" fill="#EAD9C0"/>
+  <path d="M0 0H64 M0 0V64" stroke="#CDB695" stroke-width="2" opacity=".6"/>
+</pattern>
+</defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="450" fill="url(#wall)" stroke="none"/>
+<rect y="320" width="800" height="130" fill="#D8A870" stroke="none"/>
+<rect y="312" width="800" height="14" fill="#F4DDBB" stroke="none"/>
+<path d="M0 326H800" stroke="#B98A5E" stroke-width="3" opacity=".55"/>
+
+<g transform="translate(500,42)">
+  <rect x="-16" y="-16" width="270" height="210" rx="10" fill="#C99C6B"/>
+  <rect width="240" height="180" rx="4" fill="url(#sky)"/>
+  <circle cx="52" cy="112" r="40" fill="#E07B39" opacity=".85" stroke="none"/>
+  <circle cx="106" cy="82" r="34" fill="#F2B23E" opacity=".9" stroke="none"/>
+  <circle cx="184" cy="108" r="44" fill="#C95F35" opacity=".8" stroke="none"/>
+  <path d="M52 148v22 M106 120v50 M184 144v26" stroke="#8B5A36" stroke-width="6"/>
+  <path d="M0 0H240 M0 90H240 M120 0V180" stroke="#4A342A" stroke-width="8"/>
+  <rect width="240" height="180" fill="url(#glass)" stroke="none"/>
+  <rect x="-16" y="180" width="272" height="14" rx="5" fill="#A86F45"/>
+</g>
+
+<g transform="translate(60,62)">
+  <rect x="0" y="54" width="210" height="12" rx="5" fill="#A97146"/>
+  <path d="M18 66v22 M192 66v22" stroke="#8B5A36" stroke-width="6"/>
+  <rect x="18" y="18" width="16" height="36" rx="2" fill="#2E6B66"/>
+  <rect x="40" y="24" width="14" height="30" rx="2" fill="#E07B39"/>
+  <rect x="60" y="10" width="18" height="44" rx="2" fill="#C25B4E"/>
+  <rect x="86" y="26" width="12" height="28" rx="2" fill="#F2B23E"/>
+  <path d="M136 54c-16-20-8-42 4-48 12 8 18 30 4 48z" fill="#4F8A5B"/>
+  <rect x="132" y="50" width="18" height="10" rx="3" fill="#B65C25"/>
+</g>
+
+<g transform="translate(330,58)">
+  <rect width="110" height="90" rx="6" fill="#C99C6B"/>
+  <rect x="9" y="9" width="92" height="72" rx="3" fill="#FFF6E4"/>
+  <path d="M9 68 l30-34 22 24 20-20 28 30 z" fill="#E39A5A" stroke="none"/>
+  <circle cx="70" cy="28" r="10" fill="#F2B23E" stroke="none"/>
+</g>
+
+<circle cx="710" cy="220" r="120" fill="url(#glow)" stroke="none"/>
+
+<g transform="translate(40,200)">
+  <ellipse cx="0" cy="0" rx="1" ry="1" fill="#6B4324" stroke="none" opacity="0"/>
+  <path d="M10 60 q0-38 34-38 h232 q34 0 34 38 v64 H10 Z" fill="#E39A5A"/>
+  <rect x="22" y="58" width="104" height="52" rx="14" fill="#F6C88F"/>
+  <rect x="111" y="58" width="99" height="52" rx="14" fill="#E8A86A"/>
+  <path d="M10 96 q-18 0-18 20 v22 q0 16 16 16 h296 q16 0 16-16 v-22 q0-20-18-20 Z" fill="#E39A5A"/>
+  <path d="M286 96 q18 0 18 20 v22 q0 16-16 16 h-28 q-16 0-16-16 v-22 q0-20 18-20 Z" fill="#E39A5A"/>
+  <rect x="10" y="120" width="280" height="40" rx="10" fill="#D9894D"/>
+  <path d="M26 160v18 M240 160v18" stroke="#8B5A36" stroke-width="9"/>
+  <path d="M28 70 q10 4 20 0" stroke="#B96C3C" stroke-width="2" opacity=".5"/>
+</g>
+
+<g transform="translate(335,300)">
+  <ellipse cx="87" cy="72" rx="77" ry="12" fill="#6B4324" stroke="none" opacity=".14"/>
+  <ellipse cx="87" cy="0" rx="87" ry="22" fill="#C08A57"/>
+  <rect x="0" y="-4" width="175" height="18" rx="9" fill="#D8A870"/>
+  <path d="M24 14v56 M151 14v56" stroke="#8B5A36" stroke-width="10"/>
+  <rect x="46" y="-24" width="46" height="18" rx="3" fill="#FFF6E4"/>
+  <path d="M54-24v18" stroke="#E07B39" stroke-width="2"/>
+  <circle cx="135" cy="-26" r="10" fill="#D94F3D"/>
+</g>
+
+<g transform="translate(718,245)">
+  <circle cx="0" cy="120" r="90" fill="url(#glow)" stroke="none"/>
+  <path d="M-52 0 h104 l-18 56 h-68 Z" fill="#F2B23E"/>
+  <path d="M0 56v94" stroke="#8B5A36" stroke-width="9"/>
+  <ellipse cx="0" cy="150" rx="34" ry="9" fill="#8B5A36"/>
+</g>
+
+<ellipse cx="360" cy="400" rx="245" ry="36" fill="#D98E52" opacity=".9"/>
+<ellipse cx="360" cy="400" rx="205" ry="26" fill="none" stroke="#F2C98E" stroke-width="5"/>
+<path d="M180 400q180 40 360 0" fill="none" stroke="#F2C98E" stroke-width="3" opacity=".7"/>
+<!-- тёплый свет из окна на пол -->
+<path d="M520 250 l180 0 l70 130 l-210 0 Z" fill="#FFE9A8" opacity=".18" stroke="none"/>
+</g>
+</svg>

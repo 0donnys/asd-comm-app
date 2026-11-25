@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFF9EC"/><stop offset="1" stop-color="#F2D8B2"/>
+</linearGradient>
+<linearGradient id="wallCool" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7F1E4"/><stop offset="1" stop-color="#E9D3B4"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BBDDE6"/><stop offset="1" stop-color="#FBE6BE"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".35"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow">
+  <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="planks" width="100" height="36" patternUnits="userSpaceOnUse">
+  <rect width="100" height="36" fill="#D8A870"/>
+  <path d="M0 0H100 M0 35H100 M50 0V36" stroke="#B9834F" stroke-width="1.4" opacity=".55"/>
+  <path d="M8 6q14 4 26 0" stroke="#C9955E" stroke-width="1.2" opacity=".45" fill="none"/>
+</pattern>
+<pattern id="tiles" width="64" height="64" patternUnits="userSpaceOnUse">
+  <rect width="64" height="64" fill="#EAD9C0"/>
+  <path d="M0 0H64 M0 0V64" stroke="#CDB695" stroke-width="2" opacity=".6"/>
+</pattern>
+</defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="450" fill="url(#wall)" stroke="none"/>
+<rect y="320" width="800" height="130" fill="#D8A870" stroke="none"/>
+<rect y="312" width="800" height="14" fill="#F4DDBB" stroke="none"/>
+<path d="M0 326H800" stroke="#B98A5E" stroke-width="3" opacity=".55"/>
+
+<!-- дверь -->
+<g transform="translate(548,52)">
+  <rect x="-10" y="-10" width="214" height="278" rx="10" fill="#C99C6B"/>
+  <rect width="194" height="258" rx="6" fill="#B67D4B"/>
+  <rect x="20" y="20" width="62" height="82" rx="6" fill="#C98D58"/>
+  <rect x="112" y="20" width="62" height="82" rx="6" fill="#C98D58"/>
+  <rect x="20" y="126" width="62" height="108" rx="6" fill="#C98D58"/>
+  <rect x="112" y="126" width="62" height="108" rx="6" fill="#C98D58"/>
+  <circle cx="168" cy="138" r="7" fill="#F2B23E"/>
+  <path d="M-10 248h214" stroke-width="5"/>
+</g>
+<!-- вешалка -->
+<g transform="translate(80,92)">
+  <rect width="236" height="14" rx="6" fill="#A97146"/>
+  <circle cx="18" cy="7" r="3" fill="#8B5A36" stroke="none"/>
+  <circle cx="218" cy="7" r="3" fill="#8B5A36" stroke="none"/>
+  <path d="M34 14c-8 8-8 16 0 20 M118 14c-8 8-8 16 0 20 M202 14c-8 8-8 16 0 20" fill="none" stroke-width="5"/>
+  <path d="M18 34h30l10 132H8Z" fill="#2E6B66"/>
+  <path d="M104 34h28l10 118h-48Z" fill="#C25B4E"/>
+  <path d="M188 34h30l10 144h-50Z" fill="#E07B39"/>
+  <path d="M132 34q14 32 4 58" fill="none" stroke="#F2B23E" stroke-width="7"/>
+</g>
+<!-- скамейка -->
+<g transform="translate(66,300)">
+  <rect x="0" y="0" width="260" height="20" rx="9" fill="#C08A57"/>
+  <path d="M22 20v50 M238 20v50" stroke="#8B5A36" stroke-width="10"/>
+  <path d="M46 34c0-18 20-24 32-12 8-10 28-4 28 12Z" fill="#8B5A36"/>
+  <path d="M132 34c0-18 20-24 32-12 8-10 28-4 28 12Z" fill="#2E6B66"/>
+  <path d="M18 70h224" stroke="#8B5A36" stroke-width="3" opacity=".4"/>
+</g>
+<!-- ключница -->
+<g transform="translate(390,120)">
+  <rect width="70" height="46" rx="6" fill="#C08A57"/>
+  <circle cx="35" cy="18" r="4" fill="#F2B23E"/>
+  <path d="M30 24v14 M35 30h7" stroke="#F2B23E" stroke-width="4"/>
+</g>
+<ellipse cx="410" cy="404" rx="220" ry="34" fill="#D98E52" opacity=".9"/>
+<ellipse cx="410" cy="404" rx="186" ry="24" fill="none" stroke="#F2C98E" stroke-width="5"/>
+</g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" preserveAspectRatio="xMidYMid meet">
+<defs></defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><circle cx="100" cy="100" r="88" fill="#FFF9EC" stroke="#E6CDA6" stroke-width="2"/><path d="M40 100c8-52 32-70 60-70s52 18 60 70z" fill="#2E6B66"/>
+      <path d="M100 30v100c0 14 10 22 22 18" fill="none" stroke="#4A342A" stroke-width="6"/>
+      <path d="M100 30v70 M60 100c6-30 20-52 40-70 M140 100c-6-30-20-52-40-70" stroke="#F2B23E" stroke-width="3" opacity=".7"/></g>
+</svg>

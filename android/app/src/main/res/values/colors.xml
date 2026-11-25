@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тёплая осенняя палитра приложения -->
+    <color name="cream">#FFF4DE</color>
+    <color name="pumpkin">#E8803C</color>
+    <color name="ink">#4A342A</color>
+    <!-- Фон иконки приложения (красный, белая буква «А» сверху) -->
+    <color name="ic_launcher_background">#C0392B</color>
+</resources>

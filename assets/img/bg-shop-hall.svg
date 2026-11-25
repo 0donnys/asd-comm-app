@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFF9EC"/><stop offset="1" stop-color="#F2D8B2"/>
+</linearGradient>
+<linearGradient id="wallCool" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7F1E4"/><stop offset="1" stop-color="#E9D3B4"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BBDDE6"/><stop offset="1" stop-color="#FBE6BE"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".35"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow">
+  <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="planks" width="100" height="36" patternUnits="userSpaceOnUse">
+  <rect width="100" height="36" fill="#D8A870"/>
+  <path d="M0 0H100 M0 35H100 M50 0V36" stroke="#B9834F" stroke-width="1.4" opacity=".55"/>
+  <path d="M8 6q14 4 26 0" stroke="#C9955E" stroke-width="1.2" opacity=".45" fill="none"/>
+</pattern>
+<pattern id="tiles" width="64" height="64" patternUnits="userSpaceOnUse">
+  <rect width="64" height="64" fill="#EAD9C0"/>
+  <path d="M0 0H64 M0 0V64" stroke="#CDB695" stroke-width="2" opacity=".6"/>
+</pattern>
+</defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="450" fill="url(#wall)" stroke="none"/>
+<rect y="320" width="800" height="130" fill="url(#tiles)" stroke="none"/>
+<rect y="312" width="800" height="14" fill="#E8D4B4" stroke="none"/>
+<path d="M0 326H800" stroke="#B98A5E" stroke-width="3" opacity=".55"/>
+
+<g transform="translate(28,58)">
+  <rect width="744" height="14" rx="6" fill="#A97146"/>
+  <rect x="0" y="116" width="744" height="14" rx="6" fill="#A97146"/>
+  <rect x="0" y="238" width="744" height="14" rx="6" fill="#A97146"/>
+  <path d="M30 14v224 M714 14v224" stroke-width="7"/>
+  <path d="M60 14v100 M300 14v100 M540 14v100 M60 130v108 M300 130v108 M540 130v108" stroke-width="4" opacity=".5"/>
+  <rect x="48" y="70" width="26" height="44" rx="5" fill="#FFF6E4"/>
+  <rect x="86" y="78" width="30" height="36" rx="4" fill="#E07B39" stroke="none"/>
+  <circle cx="140" cy="96" r="16" fill="#D94F3D" stroke="none"/>
+  <rect x="176" y="64" width="24" height="50" rx="5" fill="#BFE0E6"/>
+  <rect x="216" y="76" width="32" height="38" rx="4" fill="#F2B23E" stroke="none"/>
+  <rect x="324" y="66" width="28" height="48" rx="5" fill="#FFF6E4"/>
+  <circle cx="378" cy="96" r="16" fill="#4F8A5B" stroke="none"/>
+  <rect x="414" y="72" width="30" height="42" rx="4" fill="#C25B4E"/>
+  <rect x="466" y="80" width="24" height="34" rx="4" fill="#F2B23E" stroke="none"/>
+  <rect x="508" y="66" width="28" height="48" rx="5" fill="#FFF6E4"/>
+  <circle cx="576" cy="96" r="16" fill="#D94F3D" stroke="none"/>
+  <rect x="614" y="74" width="30" height="40" rx="4" fill="#E07B39" stroke="none"/>
+  <rect x="660" y="68" width="26" height="46" rx="5" fill="#BFE0E6"/>
+  <rect x="48" y="186" width="28" height="48" rx="5" fill="#F2B23E"/>
+  <circle cx="106" cy="212" r="15" fill="#4F8A5B" stroke="none"/>
+  <rect x="142" y="180" width="30" height="54" rx="4" fill="#C25B4E"/>
+  <rect x="196" y="190" width="24" height="44" rx="4" fill="#FFF6E4"/>
+  <rect x="240" y="182" width="30" height="52" rx="4" fill="#E07B39" stroke="none"/>
+  <rect x="324" y="190" width="26" height="44" rx="4" fill="#BFE0E6"/>
+  <circle cx="376" cy="212" r="15" fill="#D94F3D" stroke="none"/>
+  <rect x="412" y="184" width="28" height="50" rx="5" fill="#FFF6E4"/>
+  <rect x="466" y="192" width="32" height="42" rx="4" fill="#F2B23E" stroke="none"/>
+  <rect x="520" y="186" width="24" height="48" rx="4" fill="#4F8A5B"/>
+  <rect x="570" y="190" width="30" height="44" rx="4" fill="#FFF6E4"/>
+  <circle cx="640" cy="212" r="15" fill="#E07B39" stroke="none"/>
+  <rect x="680" y="188" width="24" height="46" rx="4" fill="#C25B4E"/>
+</g>
+<path d="M0 320h800" stroke="#B98A5E" stroke-width="3" opacity=".5"/>
+</g>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFF9EC"/><stop offset="1" stop-color="#F2D8B2"/>
+</linearGradient>
+<linearGradient id="wallCool" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7F1E4"/><stop offset="1" stop-color="#E9D3B4"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BBDDE6"/><stop offset="1" stop-color="#FBE6BE"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".35"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow">
+  <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="planks" width="100" height="36" patternUnits="userSpaceOnUse">
+  <rect width="100" height="36" fill="#D8A870"/>
+  <path d="M0 0H100 M0 35H100 M50 0V36" stroke="#B9834F" stroke-width="1.4" opacity=".55"/>
+  <path d="M8 6q14 4 26 0" stroke="#C9955E" stroke-width="1.2" opacity=".45" fill="none"/>
+</pattern>
+<pattern id="tiles" width="64" height="64" patternUnits="userSpaceOnUse">
+  <rect width="64" height="64" fill="#EAD9C0"/>
+  <path d="M0 0H64 M0 0V64" stroke="#CDB695" stroke-width="2" opacity=".6"/>
+</pattern>
+</defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="450" fill="url(#sky)" stroke="none"/>
+<circle cx="690" cy="64" r="30" fill="#F2B23E" stroke="none"/>
+<path d="M90 70q18-22 42-8 12-24 38-10 22-14 34 18z" fill="#FFFDF7" stroke="none" opacity=".85"/>
+<path d="M0 330q160-24 320-6t480-8v134H0Z" fill="#C9CFA0" stroke="none"/>
+
+<rect y="388" width="800" height="62" fill="#9A9184" stroke="none"/>
+<path d="M0 388h800" stroke="#6E665A" stroke-width="4"/>
+<path d="M40 420h60 M150 420h60 M260 420h60 M370 420h60 M480 420h60 M590 420h60 M700 420h60" stroke="#FFF6E4" stroke-width="6" opacity=".85"/>
+<g transform="translate(70,206)">
+  <path d="M0 124V40L82 0l82 40v84Z" fill="#E8BE8E"/>
+  <path d="M-10 42L82 0l92 42" fill="none" stroke="#B65C25" stroke-width="10"/>
+  <rect x="28" y="58" width="34" height="36" rx="3" fill="url(#sky)"/>
+  <rect x="102" y="58" width="34" height="36" rx="3" fill="url(#sky)"/>
+  <rect x="66" y="108" width="34" height="52" rx="3" fill="#8B5A36"/>
+</g>
+<g transform="translate(320,186)">
+  <path d="M0 150V56L88 8l88 48v98Z" fill="#F2D8B2"/>
+  <path d="M-10 58L88 8l98 50" fill="none" stroke="#2E6B66" stroke-width="12"/>
+  <rect x="22" y="72" width="40" height="42" rx="3" fill="url(#sky)"/>
+  <rect x="114" y="72" width="40" height="42" rx="3" fill="url(#sky)"/>
+  <rect x="74" y="120" width="44" height="60" rx="3" fill="#2E6B66"/>
+</g>
+<g transform="translate(600,222)">
+  <path d="M0 104V40L68 4l68 36v84Z" fill="#E39A5A"/>
+  <path d="M-8 42L68 4l76 38" fill="none" stroke="#8E5A86" stroke-width="10"/>
+  <rect x="20" y="54" width="30" height="30" rx="3" fill="url(#sky)"/>
+  <rect x="88" y="54" width="30" height="30" rx="3" fill="url(#sky)"/>
+  <rect x="56" y="94" width="30" height="46" rx="3" fill="#8B5A36"/>
+</g>
+<g transform="translate(220,150)">
+  <circle cx="0" cy="0" r="42" fill="#E07B39" stroke="none"/>
+  <circle cx="32" cy="12" r="30" fill="#F2B23E" stroke="none"/>
+  <path d="M0 42v140" stroke="#8B5A36" stroke-width="10"/>
+</g>
+<g transform="translate(520,160)">
+  <circle cx="0" cy="0" r="36" fill="#C95F35" stroke="none"/>
+  <path d="M0 36v134" stroke="#8B5A36" stroke-width="9"/>
+</g>
+
+</g>
+</svg>

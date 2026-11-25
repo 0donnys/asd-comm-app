@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Иллюстрации — предпросмотр</title>
+<style>
+  :root { --ink:#4A342A; --card:#FFF9EC; --line:#E6CDA6; }
+  body { margin:0; padding:24px; background:#FFF4DE; color:var(--ink);
+         font-family:-apple-system,"Segoe UI",Roboto,sans-serif; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.lead { margin:0 0 20px; color:#8A6E5A; }
+  h2 { font-size:16px; margin:28px 0 10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:14px; }
+  .card { background:var(--card); border:2px solid var(--line); border-radius:16px;
+          padding:8px; text-align:center; }
+  .card img { width:100%; height:130px; object-fit:contain; display:block; }
+  .card span { display:block; font-size:13px; font-weight:700; margin-top:6px; color:#6B5241; }
+</style>
+</head>
+<body>
+  <h1>Иллюстрации приложения</h1>
+  <p class="lead">Оригинальные рисунки в тёплой осенней палитре. Без текста внутри картинок.</p>
+
+  <h2>Фоны (сцены)</h2>
+  <div class="grid" id="scenes"></div>
+
+  <h2>Персонажи</h2>
+  <div class="grid" id="chars"></div>
+
+  <h2>Предметы</h2>
+  <div class="grid" id="items"></div>
+
+  <h2>Жесты</h2>
+  <div class="grid" id="gestures"></div>
+
+<script>
+  const data = {
+    scenes: [['bg-room','Комната'],['bg-window','Окно'],['bg-hallway','Прихожая'],
+             ['bg-street','Улица'],['bg-shop-entrance','Вход в магазин'],
+             ['bg-shop-hall','Торговый зал'],['bg-cashier','Касса']],
+    chars: [['char-girl','Девочка'],['char-girl-dressed','Девочка одетая'],
+            ['char-boy','Мальчик'],['char-boy-dressed','Мальчик одетый'],
+            ['char-friend-girl','Подруга'],['char-friend-boy','Друг'],
+            ['char-cashier','Кассир'],['char-mom','Мама'],['char-teacher','Учительница']],
+    items: [['item-bread','Хлеб'],['item-milk','Молоко'],['item-apple','Яблоко'],
+            ['item-candy','Конфеты'],['item-toy','Игрушка'],['item-juice','Сок'],
+            ['item-jacket','Куртка'],['item-pants','Штаны'],['item-boots','Ботинки'],
+            ['item-shorts','Шорты'],['item-skirt','Юбка'],['item-wallet','Кошелёк'],
+            ['item-keys','Ключи'],['item-umbrella','Зонт'],['item-cart','Тележка'],
+            ['item-basket','Корзина'],['item-bag','Сумка'],['item-packet','Пакет'],
+            ['item-money','Деньги'],['item-card','Карта'],['item-shop','Магазин'],
+            ['item-school','Школа'],['item-hospital','Больница'],['item-home','Дом']],
+    gestures: [['gest-wave','Поздороваться'],['gest-silence','Молчание'],
+               ['gest-angry','Сердитое лицо'],['gest-check','Да'],['gest-cross','Нет'],
+               ['gest-pay','Заплатить'],['gest-run','Убежать'],['gest-stand','Стоять'],
+               ['gest-nod','Кивнуть']]
+  };
+  for (const [key, list] of Object.entries(data)) {
+    const box = document.getElementById(key);
+    for (const [file, label] of list) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = '<img src="../assets/img/' + file + '.svg" alt=""><span>' + label + '</span>';
+      box.appendChild(card);
+    }
+  }
+</script>
+</body>
+</html>

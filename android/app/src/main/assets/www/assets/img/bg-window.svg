@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFF9EC"/><stop offset="1" stop-color="#F2D8B2"/>
+</linearGradient>
+<linearGradient id="wallCool" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7F1E4"/><stop offset="1" stop-color="#E9D3B4"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BBDDE6"/><stop offset="1" stop-color="#FBE6BE"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".35"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow">
+  <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+  <stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="planks" width="100" height="36" patternUnits="userSpaceOnUse">
+  <rect width="100" height="36" fill="#D8A870"/>
+  <path d="M0 0H100 M0 35H100 M50 0V36" stroke="#B9834F" stroke-width="1.4" opacity=".55"/>
+  <path d="M8 6q14 4 26 0" stroke="#C9955E" stroke-width="1.2" opacity=".45" fill="none"/>
+</pattern>
+<pattern id="tiles" width="64" height="64" patternUnits="userSpaceOnUse">
+  <rect width="64" height="64" fill="#EAD9C0"/>
+  <path d="M0 0H64 M0 0V64" stroke="#CDB695" stroke-width="2" opacity=".6"/>
+</pattern>
+</defs>
+<g stroke="#4A342A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="450" fill="url(#wallCool)" stroke="none"/>
+<rect y="320" width="800" height="130" fill="#D8A870" stroke="none"/>
+<rect y="312" width="800" height="14" fill="#F4DDBB" stroke="none"/>
+<path d="M0 326H800" stroke="#B98A5E" stroke-width="3" opacity=".55"/>
+
+<g transform="translate(150,24)">
+  <rect x="-18" y="-18" width="516" height="312" rx="14" fill="#C99C6B"/>
+  <rect width="480" height="280" rx="6" fill="url(#sky)"/>
+  <circle cx="120" cy="210" r="82" fill="#E07B39" opacity=".85" stroke="none"/>
+  <circle cx="245" cy="186" r="70" fill="#F2B23E" opacity=".9" stroke="none"/>
+  <circle cx="390" cy="200" r="86" fill="#C95F35" opacity=".8" stroke="none"/>
+  <path d="M120 264V190 M245 264V176 M390 264V184" stroke="#7B5236" stroke-width="14"/>
+  <path d="M0 0H480 M0 140H480 M240 0V280" stroke="#4A342A" stroke-width="10"/>
+  <rect width="480" height="280" fill="url(#glass)" stroke="none"/>
+  <rect x="-18" y="280" width="516" height="24" rx="8" fill="#A86F45"/>
+</g>
+<g transform="translate(220,300)">
+  <path d="M0 0h58v36a14 14 0 0 1-14 14H14A14 14 0 0 1 0 36Z" fill="#FFF6E4"/>
+  <path d="M58 8h12a13 13 0 0 1 0 26H58" fill="none"/>
+  <path d="M14-8c0-8 8-12 8-20 M36-8c0-8 8-12 8-20" stroke="#B9834F" stroke-width="2"/>
+</g>
+<g transform="translate(560,282)">
+  <path d="M0 0h56l-8 28H8Z" fill="#B65C25"/>
+  <path d="M28-4c-26-24-12-64 0-70 14 8 26 46 0 70Z" fill="#4F8A5B"/>
+  <path d="M28-4v-70" stroke="#3C6B45" stroke-width="3"/>
+</g>
+<!-- свет на стене и полу -->
+<path d="M160 320 l480 0 l40 90 l-540 0 Z" fill="#FFE9A8" opacity=".2" stroke="none"/>
+</g>
+</svg>

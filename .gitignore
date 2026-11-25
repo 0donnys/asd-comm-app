@@ -1,0 +1,25 @@
+.DS_Store
+.idea/
+*.iml
+*.zip
+.dsh/
+
+# Учебные лабораторные, не относящиеся к ВКР
+java-reflection-lab/
+java-reflection-lab_1/
+java-reflection-lab_2/
+lab2-concurrent-text-analyzer/
+lab2kravtsov/
+
+# Android build output
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/keystore.properties
+android/release.jks
+
+# Python environments and caches
+tools/.venv/
+__pycache__/
+*.pyc
